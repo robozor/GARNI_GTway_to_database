@@ -1,4 +1,4 @@
-*  WiFi meteostanice GARNI GTway Plus → WSLink -> R / Plumber → PostgreSQL / MySQL
+#  WiFi meteostanice GARNI GTway Plus → WSLink -> R / Plumber → PostgreSQL / MySQL
  =============================================================================
    KONFIGURACE DOCKER KONTEJNERU (ENV PROMĚNNÉ)
   -------------------------------------------
