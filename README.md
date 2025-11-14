@@ -24,7 +24,7 @@
         "127.0.0.1" = jen localhost (např. pokud bude před tím reverzní proxy)
 
   - PLUMBER_PORT
-      Port HTTP/HTTPS serveru plumberu (default 8888).
+      Port HTTP serveru plumberu (default 8888).
 
 
   PŘÍKLAD docker run (HTTPS, certifikáty mountnuté z NAS)
@@ -84,6 +84,13 @@
            method       (GET/POST)
            raw_json     (znovu uložený celý JSON s čidly)
 
+  Plumber nemá https
+  Musíte ještě udělat reverzní proxy (třeba na Synology NAS), které
+  přehodí volání https na plumber api s http
+  Zdroj https například *:9876 -> cíl http například 127.0.0.1:8888
+    
+  
+  
   Rozšiřitelnost:
   ---------------
   - Tabulka weather_observations_wide obsahuje i sloupce pro čidla,
