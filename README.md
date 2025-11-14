@@ -1,7 +1,7 @@
 # GARNI GTway Plus → WSLink → R / Plumber → PostgreSQL / MySQL
 
  =============================================================================
-   KONFIGURACE DOCKER KONTEJNERU (ENV PROMĚNNÉ)
+ KONFIGURACE DOCKER KONTEJNERU (ENV PROMĚNNÉ)
   -------------------------------------------
   - DB_URL
       Connection string ve stylu:
