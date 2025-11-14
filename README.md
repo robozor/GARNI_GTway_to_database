@@ -89,6 +89,7 @@
   Plumber nemá https
   Musíte ještě udělat reverzní proxy (třeba na Synology NAS), které
   přehodí volání https na plumber api s http
+  
   Zdroj https například *:9876 -> cíl http například 127.0.0.1:8888
     
   
